@@ -1,0 +1,19 @@
+
+.alfavit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 4px;
+}
+
+.alfavit-title {
+    color: rgb(213, 125, 31);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.meals {
+    width: 300px;
+    height: 290px;
+    position: relative;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .meals div {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  .meal-img {
+    filter: brightness(100%);
+    transition: transform 0.5s ease, filter 0.5s ease;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .meal-img:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(1.07);
+  
+  
+  }
+  
+  .meals h2 {
+    color: #D57D1F;
+    transition: color 0.3s ease;
+    /* Плавное изменение цвета текста */
+  }
+  
+  .meals h2:hover {
+    color: #FF9933;
+  }

@@ -1,0 +1,57 @@
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .meal-icon {
+    width: 200px;
+    height: auto;
+  }
+  
+  .data {
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .api-link {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .api-link:hover {
+    text-decoration: underline;
+  }
+  
+  .paypal-button {
+    background-color: #ffc107;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .paypal-logo {
+    vertical-align: middle;
+  }
+  
+  .support-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

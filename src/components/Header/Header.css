@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    height: 91px;
+    background-color: #23180d;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.home-btn{
+    width: 63.58px;
+height: 34px;
+border: none;
+background-color: rgb(197, 45, 47);
+border-radius: 5px;
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.API-btn {
+    width: 63.58px;
+    height: 34px;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.API-btn:hover {
+    background-color: rgb(197, 45, 47);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-right input {
+    width: 112px;
+    height: 19px;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+}
+.burger {
+    display: none;
+    border: 1px solid white; 
+}
+@media (max-width:768px) {
+    .nav-right{
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+.burger .icon {
+    color: white;
+    font-size: 22px;
+    align-items: center;
+}
