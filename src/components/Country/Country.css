@@ -1,0 +1,22 @@
+.CountryContainer{
+    width: 1170px;
+    height: 300px;
+    margin: 0 auto;
+    h2{
+        font-family: cursive;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+
+    }
+}
+.CountryContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}

@@ -4,6 +4,7 @@ import Search from '../components/Search/Search'
 import Section2 from '../components/Section2/Section2'
 import ProductList from '../components/ProductList/ProductList'
 import apiClient from '../axios/apiCliant'
+import Country from '../components/Country/Country'
 
 function Home() {
 
@@ -31,6 +32,7 @@ useEffect(() => {
       <hr  className='container'/>
       {/* <Section2 /> */}
       <ProductList data={list} />
+      <Country /> 
     </div>
   )
 }

@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Search2 from "./pages/Search2";
 import Alfavit from "./components/Alfavit/Alfavit";
 import AlfavitSearch from "./components/Alfavit/AlfavitSearch";
+import Country from "./components/Country/Country";
+import CountryInfo from "./components/Country/CountryInfo";
 
 export const myRouter = createBrowserRouter([
     {
@@ -25,6 +27,14 @@ export const myRouter = createBrowserRouter([
             {
                 path: "alfavit/:letter",
                 element: <AlfavitSearch />, 
+            },
+            {
+                path: "country",
+                element: <Country />,
+            },
+            {
+                path: "country/:country",
+                element: <CountryInfo />,
             }
         ]
     }
