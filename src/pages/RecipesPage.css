@@ -1,0 +1,33 @@
+
+.food-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    gap: 30px; /* Расстояние между элементами */
+    max-width: 1000px;
+  }
+  
+  .food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .food-item img {
+    width: 200px; /* Увеличенный размер изображения */
+    height: 200px;
+    border-radius: 15px;
+  }
+  
+  .food-item h3 {
+    font-size: 16px; /* Увеличенный размер текста */
+    color: #f4a261;
+    margin-top: 8px;
+  }
+  

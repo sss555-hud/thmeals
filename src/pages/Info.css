@@ -1,0 +1,92 @@
+.info {
+    background-color: #3b220e;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flag img {
+    width: 50px;
+    height: auto;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.info-left img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 600px;
+}
+
+.info-right div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.info-right img {
+    width: 150px;
+    height: 150px;
+    padding: 5px;  
+    border-radius: 10px;
+}
+
+.info-right p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #D57D1F;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+.info-right p:hover {
+    color: #FF9933;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.info-right h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-right p:last-child {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cotegory {
+    width: 100px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}

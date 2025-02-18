@@ -30,8 +30,7 @@
   
   .meals h2 {
     color: #D57D1F;
-    transition: color 0.3s ease;
-    /* Плавное изменение цвета текста */
+    transition: color 0.3s ease
   }
   
   .meals h2:hover {

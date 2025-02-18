@@ -6,6 +6,8 @@ import Alfavit from "./components/Alfavit/Alfavit";
 import AlfavitSearch from "./components/Alfavit/AlfavitSearch";
 import Country from "./components/Country/Country";
 import CountryInfo from "./components/Country/CountryInfo";
+import Info from "./pages/Info";
+import RecipesPage from "./pages/RecipesPage";
 
 export const myRouter = createBrowserRouter([
     {
@@ -35,6 +37,14 @@ export const myRouter = createBrowserRouter([
             {
                 path: "country/:country",
                 element: <CountryInfo />,
+            },
+            {
+                path: "info/:idMeal",
+                element: <Info />,
+            },
+            {
+                path: "recipes/:ingredient",
+                element: <RecipesPage />,
             }
         ]
     }
