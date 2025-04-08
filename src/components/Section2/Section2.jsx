@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './section2.css';
-import { Link } from 'react-router-dom';
+import './SectionTwo.css';
 
 const API = "https://www.themealdb.com/api/json/v1/1/search.php?s=a";
 
